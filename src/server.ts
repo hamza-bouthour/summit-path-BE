@@ -17,7 +17,8 @@ app.use(
 );
 
 app.get("/health", (_req, res) => {
-  res.json({ ok: true });
+//   res.json({ ok: true });
+    res.send("Mr. Arab, Why are you gay?");
 });
 
 app.use("/api/auth", authRoutes);
